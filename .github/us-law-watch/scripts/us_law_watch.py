@@ -284,8 +284,11 @@ def run_report(args: argparse.Namespace) -> int:
                    delta["tools_changed"], delta["judgments_changed"]])
     today = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     report = render(old, new, delta, details, priority, today)
+    incomplete = any("error" in detail for detail in details.values())
+    if incomplete:
+        report += "\n**Comparison incomplete. The previous baseline was retained and will be retried on the next run.**\n"
     atomic_write(Path(args.report), report)
-    if not args.keep_state:
+    if not args.keep_state and not incomplete:
         atomic_write(state, json.dumps({"_doc": "Last seen pins for the United States corpora in lexifina/global-law. Written by scripts/us_law_watch.py; do not edit.",
                                         "taken": today, **new}, indent=2, sort_keys=True) + "\n")
     out = os.environ.get("GITHUB_OUTPUT")

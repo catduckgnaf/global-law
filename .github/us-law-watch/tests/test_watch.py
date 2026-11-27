@@ -3,6 +3,8 @@ import json
 import subprocess
 import tempfile
 import unittest
+from argparse import Namespace
+from unittest.mock import patch
 from pathlib import Path
 
 spec = importlib.util.spec_from_file_location("w", Path(__file__).resolve().parents[1] / "scripts" / "us_law_watch.py")
@@ -67,6 +69,26 @@ class DiffTests(unittest.TestCase):
         d = w.diff_snapshots(OLD, NEW)
         text = w.render(OLD, NEW, d, {"united-states/federal/usc": {"status": "diverged", "total": 1, "commits": ["x"], "files": 1, "files_capped": False}}, [], "d")
         self.assertIn("history may have been rewritten", text)
+
+
+class ReportStateTests(unittest.TestCase):
+    def test_failed_comparison_preserves_baseline_and_success_retries_and_advances(self):
+        with tempfile.TemporaryDirectory() as t:
+            state = Path(t) / "state.json"
+            report = Path(t) / "report.md"
+            original = json.dumps(OLD)
+            state.write_text(original)
+            args = Namespace(clone=t, state=str(state), report=str(report), config=None,
+                             offline=False, keep_state=False)
+            successful = {"status": "ahead", "total": 1, "commits": ["fixed"], "files": 1, "files_capped": False}
+            with patch.object(w, "take_snapshot", return_value=NEW), patch.object(w, "compare", side_effect=[{"error": "HTTP 503"}, successful, successful, successful]) as compare:
+                self.assertEqual(w.run_report(args), 0)
+                self.assertEqual(state.read_text(), original)
+                self.assertIn("error", report.read_text())
+                self.assertEqual(w.run_report(args), 0)
+                self.assertEqual(json.loads(state.read_text())["corpora"], NEW["corpora"])
+                self.assertEqual(compare.call_count, 4)
+                self.assertEqual(compare.call_args_list[0], compare.call_args_list[2])
 
 
 class SnapshotTests(unittest.TestCase):
