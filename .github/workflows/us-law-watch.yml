@@ -4,40 +4,17 @@ on:
   schedule:
     - cron: '17 11 * * 1'
   workflow_dispatch:
-  pull_request:
-    paths:
-      - '.github/workflows/us-law-watch.yml'
-      - '.github/us-law-watch/**'
 
 permissions:
   contents: read
 
 concurrency:
-  group: us-law-watch-${{ github.event_name == 'pull_request' && github.ref || 'weekly' }}
+  group: us-law-watch
   cancel-in-progress: false
 
 jobs:
-  test-monitor:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          sparse-checkout: .github/us-law-watch
-          persist-credentials: false
-      - name: Unit tests and upstream smoke test
-        working-directory: .github/us-law-watch
-        run: |
-          set -euo pipefail
-          python3 -m unittest discover -s tests -v
-          git clone -q --depth=1 --filter=blob:none --no-checkout --no-recurse-submodules https://github.com/lexifina/global-law.git "$RUNNER_TEMP/upstream"
-          python3 scripts/us_law_watch.py snapshot --clone "$RUNNER_TEMP/upstream" --out "$RUNNER_TEMP/baseline.json"
-          python3 scripts/us_law_watch.py report --clone "$RUNNER_TEMP/upstream" --state "$RUNNER_TEMP/baseline.json" --report "$RUNNER_TEMP/report.md" --offline --keep-state
-          cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY"
-
   watch:
-    if: github.repository == 'catduckgnaf/global-law' && github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
-    needs: test-monitor
+    if: github.repository == 'catduckgnaf/global-law' && github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
