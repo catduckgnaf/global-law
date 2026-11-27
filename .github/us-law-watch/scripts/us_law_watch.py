@@ -240,12 +240,15 @@ def render(old: dict, new: dict, delta: dict, details: dict[str, dict], priority
             L.append(f"{rest} other corpora changed freshness status; see `data/freshness.tsv` upstream.")
             L.append("")
 
-    stale = [p for p in priority if p in nc and nc[p]["status"] in ("stale", "unverified", "source-unavailable")]
-    if stale:
+    unverified = [p for p in priority if p not in nc or nc[p]["status"] != "current"]
+    if unverified:
         L.append("## Priority corpora not currently verified against their official source")
         L.append("")
-        for p in stale:
-            L.append(f"- `{p}`: {nc[p]['status']}, last verified {nc[p]['last_verified'] or 'never'}")
+        for p in unverified:
+            if p not in nc:
+                L.append(f"- `{p}`: not pinned upstream")
+            else:
+                L.append(f"- `{p}`: {nc[p]['status'] or 'unknown'}, last verified {nc[p]['last_verified'] or 'never'}")
         L.append("")
         L.append("Treat these as a research aid and confirm against the official publication before filing or citing.")
         L.append("")

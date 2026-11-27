@@ -49,6 +49,20 @@ class DiffTests(unittest.TestCase):
                        "tools/", "stale", "| error |", "not currently verified"):
             self.assertIn(needle, text)
 
+    def test_priority_freshness_unknown_and_unrecognized_are_warned(self):
+        paths = ["united-states/missing-row", "united-states/pending", "united-states/current", "united-states/not-pinned"]
+        snap = {"upstream_commit": "a" * 40, "corpora": {
+            paths[0]: corpus("1" * 40, status=""),
+            paths[1]: corpus("2" * 40, status="pending-change"),
+            paths[2]: corpus("3" * 40),
+        }}
+        text = w.render(snap, snap, w.diff_snapshots(snap, snap), {}, paths, "d")
+        warning = text.split("## Priority corpora not currently verified", 1)[1]
+        self.assertIn(f"`{paths[0]}`: unknown", warning)
+        self.assertIn(f"`{paths[1]}`: pending-change", warning)
+        self.assertIn(f"`{paths[3]}`: not pinned upstream", warning)
+        self.assertNotIn(f"`{paths[2]}`", warning)
+
     def test_diverged_pin_is_flagged(self):
         d = w.diff_snapshots(OLD, NEW)
         text = w.render(OLD, NEW, d, {"united-states/federal/usc": {"status": "diverged", "total": 1, "commits": ["x"], "files": 1, "files_capped": False}}, [], "d")
