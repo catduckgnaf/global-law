@@ -1,0 +1,73 @@
+name: U.S. law weekly watch
+
+on:
+  schedule:
+    - cron: '17 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: us-law-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    if: github.repository == 'catduckgnaf/global-law' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/us-law-watch
+      - name: Compare upstream U.S. corpus pins
+        id: report
+        working-directory: .github/us-law-watch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          upstream="$RUNNER_TEMP/upstream"
+          state="$RUNNER_TEMP/watch-state"
+          git clone -q --depth=1 --filter=blob:none --no-checkout --no-recurse-submodules https://github.com/lexifina/global-law.git "$upstream"
+          git init -q -b us-law-watch-state "$state"
+          git -C "$state" remote add origin "https://github.com/$GITHUB_REPOSITORY.git"
+          # Reuse the authenticated header from actions/checkout, without logging it.
+          git -C "$state" config http.https://github.com/.extraheader "$(git config --get http.https://github.com/.extraheader)"
+          ref=$(git -C "$state" ls-remote --heads origin refs/heads/us-law-watch-state)
+          if [[ -n "$ref" ]]; then
+            git -C "$state" fetch -q --depth=1 origin us-law-watch-state
+            git -C "$state" checkout -q -B us-law-watch-state FETCH_HEAD
+            python3 scripts/us_law_watch.py report --clone "$upstream" --state "$state/snapshot.json" --report "$RUNNER_TEMP/report.md" --config config/watch.json
+            cat "$RUNNER_TEMP/report.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            python3 scripts/us_law_watch.py snapshot --clone "$upstream" --out "$state/snapshot.json"
+            echo 'Seeded U.S. corpus baseline.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Open update issue
+        if: steps.report.outputs.material == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          body="$RUNNER_TEMP/report.md"
+          if [[ $(wc -c < "$body") -gt 60000 ]]; then
+            head -c 58000 "$body" > "$RUNNER_TEMP/trimmed.md"
+            printf '\n\n_Report truncated; see the workflow run summary._\n' >> "$RUNNER_TEMP/trimmed.md"
+            body="$RUNNER_TEMP/trimmed.md"
+          fi
+          gh label create us-law-update -R "$GITHUB_REPOSITORY" --color 1d76db --description 'Weekly U.S. law change report' --force
+          gh issue create -R "$GITHUB_REPOSITORY" --title "U.S. law updates (run $GITHUB_RUN_NUMBER)" --label us-law-update --body-file "$body"
+      - name: Save baseline without rewriting history
+        working-directory: ${{ runner.temp }}/watch-state
+        run: |
+          set -euo pipefail
+          git add snapshot.json
+          if ! git diff --cached --quiet; then
+            git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -qm 'Update U.S. corpus baseline'
+            git push origin HEAD:refs/heads/us-law-watch-state
+          fi

@@ -1,0 +1,17 @@
+{
+  "_doc": "Priority corpora listed first in the weekly report and flagged when not verified against their official source.",
+  "priority": [
+    "united-states/federal/usc",
+    "united-states/federal/cfr",
+    "united-states/supreme-court/caselaw",
+    "united-states/ca2/caselaw",
+    "united-states/ca2-district/caselaw",
+    "united-states/connecticut/acts",
+    "united-states/connecticut/caselaw",
+    "united-states/connecticut-appellate/caselaw",
+    "united-states/connecticut-other-courts/caselaw",
+    "united-states/california/statutes",
+    "united-states/california/caselaw",
+    "united-states/california-appellate/caselaw"
+  ]
+}
