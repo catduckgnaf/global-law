@@ -1,0 +1,1690 @@
+{
+  "_doc": "Last seen pins for the United States corpora in lexifina/global-law. Written by scripts/us_law_watch.py; do not edit.",
+  "corpora": {
+    "puerto-rico/national/acts": {
+      "coverage": "12 acts, 12 dated versions from 2024-04-15 to 2026-08-21; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-05",
+      "pin": "4019eb78d598d9984dd584c6445def6c5f0f3649",
+      "repo": "lexifina/puerto-rico-law",
+      "status": "stale"
+    },
+    "united-states/alabama-appellate/caselaw": {
+      "coverage": "58993 published decisions, one file each, dated the day decided: 58478 with their opinion text and 515 with CAP head matter only (CAP holds no opinion text for them); 255 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "95d3bafb09f32b0e2b672c1b2600554ca1f141d2",
+      "repo": "lexifina/united-states-alabama-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/alabama/acts": {
+      "coverage": "47 acts, 47 dated versions from 2026-10-30 to 2026-11-03; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-11",
+      "pin": "ec5f6eb5d1b75d6d8502b25c32b7037fe1e666db",
+      "repo": "lexifina/united-states-alabama-law",
+      "status": "current"
+    },
+    "united-states/alabama/caselaw": {
+      "coverage": "72204 published decisions, one file each, dated the day decided: 72080 with their opinion text and 124 with CAP head matter only (CAP holds no opinion text for them); 689 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c036bdea124e9e8d525aef1f54829ea15a2da8d3",
+      "repo": "lexifina/united-states-alabama-caselaw",
+      "status": "current"
+    },
+    "united-states/alaska-appellate/caselaw": {
+      "coverage": "2610 published decisions, one file each, dated the day decided: 2610 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 4 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "83ccc846b5fd1dbf80e8e48d813d9e4845c2f80b",
+      "repo": "lexifina/united-states-alaska-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/alaska/acts": {
+      "coverage": "47 acts, 47 dated versions from 2024-11-08 to 2025-12-31; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "ebcff03a6c03d69f6e7c89e57b0bad96524b8eba",
+      "repo": "lexifina/united-states-alaska-law",
+      "status": "current"
+    },
+    "united-states/alaska/caselaw": {
+      "coverage": "7586 published decisions, one file each, dated the day decided: 7586 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 159 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "89de6b49d1d3b39f54ecbaf9c2d2e25a2e598e38",
+      "repo": "lexifina/united-states-alaska-caselaw",
+      "status": "stale"
+    },
+    "united-states/american-samoa/acts": {
+      "coverage": "2 acts of American Samoa, the current text of each as of 2026-11-11",
+      "history": "current-only",
+      "last_verified": "2026-11-11",
+      "pin": "5a7aadf3a6643cae18facf78fc0ccfc8a0f81ea2",
+      "repo": "lexifina/united-states-american-samoa-law",
+      "status": "current"
+    },
+    "united-states/american-samoa/caselaw": {
+      "coverage": "2167 published decisions, one file each, dated the day decided: 2167 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 55 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "6a08fe51fd862abafd08c2422be9b5cacf9d3653",
+      "repo": "lexifina/united-states-american-samoa-caselaw",
+      "status": "current"
+    },
+    "united-states/arizona-appellate/caselaw": {
+      "coverage": "15081 published decisions, one file each, dated the day decided: 15081 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 220 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "00c96e309067a51422e28faf899af78bea56c663",
+      "repo": "lexifina/united-states-arizona-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/arizona/acts": {
+      "coverage": "",
+      "history": "current-only",
+      "last_verified": "",
+      "pin": "c7d501d7ae7c3ced9531efd2574b439eadf0ff06",
+      "repo": "lexifina/united-states-arizona-law",
+      "status": "unverified"
+    },
+    "united-states/arizona/caselaw": {
+      "coverage": "13392 published decisions, one file each, dated the day decided: 13355 with their opinion text and 37 with CAP head matter only (CAP holds no opinion text for them); 56 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "2f76c0442f55e1a1623b1712c964227accf091eb",
+      "repo": "lexifina/united-states-arizona-caselaw",
+      "status": "current"
+    },
+    "united-states/arkansas-appellate/caselaw": {
+      "coverage": "9198 published decisions, one file each, dated the day decided: 9158 with their opinion text and 40 with CAP head matter only (CAP holds no opinion text for them); 94 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "57f0ff0bb04ffed4001e96f20877673365bb102c",
+      "repo": "lexifina/united-states-arkansas-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/arkansas/acts": {
+      "coverage": "1 acts, 16 dated versions from 2025-01-16 to 2025-03-18; catalogue entries only, no law text",
+      "history": "metadata-only",
+      "last_verified": "2026-10-30",
+      "pin": "9a4ae458d4861d39ae83a686401af4131bc32b39",
+      "repo": "lexifina/united-states-arkansas-law",
+      "status": "current"
+    },
+    "united-states/arkansas/caselaw": {
+      "coverage": "51190 published decisions, one file each, dated the day decided: 51168 with their opinion text and 22 with CAP head matter only (CAP holds no opinion text for them); 118 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "a64ffcd5b2868751c3f5d846fee17f4c1ae02809",
+      "repo": "lexifina/united-states-arkansas-caselaw",
+      "status": "current"
+    },
+    "united-states/bankruptcy/caselaw": {
+      "coverage": "66379 published decisions, one file each, dated the day decided: 66364 with their opinion text and 15 with CAP head matter only (CAP holds no opinion text for them); 134052 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c93dca434de2350915dd3a3b0fccabe0ba5c7960",
+      "repo": "lexifina/united-states-bankruptcy-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca1-district/caselaw": {
+      "coverage": "33915 published decisions, one file each, dated the day decided: 33731 with their opinion text and 184 with CAP head matter only (CAP holds no opinion text for them); 5139 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "3bb968fc6e6d30cec8931372d7accdd672aaa76d",
+      "repo": "lexifina/united-states-ca1-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca1/caselaw": {
+      "coverage": "24361 published decisions, one file each, dated the day decided: 24359 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 3701 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "3d21567888b4f849cb4436ccbaac2d0921295aa4",
+      "repo": "lexifina/united-states-ca1-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca10-district/caselaw": {
+      "coverage": "21007 published decisions, one file each, dated the day decided: 20995 with their opinion text and 12 with CAP head matter only (CAP holds no opinion text for them); 4418 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1a1936f4634a479e2c3db3015dc054b90e81ea9d",
+      "repo": "lexifina/united-states-ca10-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca10/caselaw": {
+      "coverage": "49846 published decisions, one file each, dated the day decided: 49843 with their opinion text and 3 with CAP head matter only (CAP holds no opinion text for them); 5303 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "284c5e97e3b5d5ab9639b3a7bf84382b81f74fd7",
+      "repo": "lexifina/united-states-ca10-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca11-district/caselaw": {
+      "coverage": "28817 published decisions, one file each, dated the day decided: 28783 with their opinion text and 34 with CAP head matter only (CAP holds no opinion text for them); 5707 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "10f8c3a34b0250cb6b63f63333f0778f291b08e2",
+      "repo": "lexifina/united-states-ca11-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca11/caselaw": {
+      "coverage": "56171 published decisions, one file each, dated the day decided: 56170 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 5965 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "b4e342274cff1f47f2b66c13b3e4d378aa66de45",
+      "repo": "lexifina/united-states-ca11-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca2-district/caselaw": {
+      "coverage": "93826 published decisions, one file each, dated the day decided: 93525 with their opinion text and 301 with CAP head matter only (CAP holds no opinion text for them); 14858 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4d1fc61c97e15703320823bc50ffcdc5402ff149",
+      "repo": "lexifina/united-states-ca2-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca2/caselaw": {
+      "coverage": "79624 published decisions, one file each, dated the day decided: 79610 with their opinion text and 14 with CAP head matter only (CAP holds no opinion text for them); 8179 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "27dad1201543bd19c44dc5e8d3a10e0813a08aa9",
+      "repo": "lexifina/united-states-ca2-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca3-district/caselaw": {
+      "coverage": "53049 published decisions, one file each, dated the day decided: 52896 with their opinion text and 153 with CAP head matter only (CAP holds no opinion text for them); 10289 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "a6ed893c7de4fdad1c66ae1696342a5c45025bcd",
+      "repo": "lexifina/united-states-ca3-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca3/caselaw": {
+      "coverage": "55373 published decisions, one file each, dated the day decided: 55373 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 6904 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "9ae8db42a89a333e66d62c66e76398bde0ebe7ac",
+      "repo": "lexifina/united-states-ca3-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca4-district/caselaw": {
+      "coverage": "33802 published decisions, one file each, dated the day decided: 33747 with their opinion text and 55 with CAP head matter only (CAP holds no opinion text for them); 6787 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bb7fc9869090c8bd831d894a6f7cf23f4345ce2a",
+      "repo": "lexifina/united-states-ca4-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca4/caselaw": {
+      "coverage": "96415 published decisions, one file each, dated the day decided: 96412 with their opinion text and 3 with CAP head matter only (CAP holds no opinion text for them); 5009 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "37900a461d4bd240fe7e19e5ed64de9cdcf3e72b",
+      "repo": "lexifina/united-states-ca4-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca5-district/caselaw": {
+      "coverage": "28758 published decisions, one file each, dated the day decided: 28726 with their opinion text and 32 with CAP head matter only (CAP holds no opinion text for them); 5917 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "662630153264977a08d2da21e92fcb0e695d40e9",
+      "repo": "lexifina/united-states-ca5-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca5/caselaw": {
+      "coverage": "125656 published decisions, one file each, dated the day decided: 125654 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 9937 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "21208b5bbcfa1b3670a8b21dcc52cbe774927c21",
+      "repo": "lexifina/united-states-ca5-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca6-district/caselaw": {
+      "coverage": "35104 published decisions, one file each, dated the day decided: 34981 with their opinion text and 123 with CAP head matter only (CAP holds no opinion text for them); 7137 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "cfb4fa27f6aaa5525a45c6cf51a3ea8d53a2a8b3",
+      "repo": "lexifina/united-states-ca6-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca6/caselaw": {
+      "coverage": "59864 published decisions, one file each, dated the day decided: 59863 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 7101 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c7cddcbd01cb02bad3c5d858b82cf5cd3ef839fa",
+      "repo": "lexifina/united-states-ca6-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca7-district/caselaw": {
+      "coverage": "38012 published decisions, one file each, dated the day decided: 37941 with their opinion text and 71 with CAP head matter only (CAP holds no opinion text for them); 7985 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5ac2bed9373ca2e8a13a8f6a8901c95d735a750d",
+      "repo": "lexifina/united-states-ca7-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca7/caselaw": {
+      "coverage": "54733 published decisions, one file each, dated the day decided: 54728 with their opinion text and 5 with CAP head matter only (CAP holds no opinion text for them); 7770 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "566738ab85dd732874272409a9858cf2ab59f860",
+      "repo": "lexifina/united-states-ca7-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca8-district/caselaw": {
+      "coverage": "30175 published decisions, one file each, dated the day decided: 30116 with their opinion text and 59 with CAP head matter only (CAP holds no opinion text for them); 4662 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "44bb5b138befb00efde55b3f1cb6601d4928acb4",
+      "repo": "lexifina/united-states-ca8-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca8/caselaw": {
+      "coverage": "68476 published decisions, one file each, dated the day decided: 68470 with their opinion text and 6 with CAP head matter only (CAP holds no opinion text for them); 5841 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "0c6aa6b02152b1d764a6b87916ceccf35354867d",
+      "repo": "lexifina/united-states-ca8-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca9-district/caselaw": {
+      "coverage": "42252 published decisions, one file each, dated the day decided: 42198 with their opinion text and 54 with CAP head matter only (CAP holds no opinion text for them); 8566 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "343dfe2202bbdbcee7781e7402feb4319058adde",
+      "repo": "lexifina/united-states-ca9-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/ca9/caselaw": {
+      "coverage": "154783 published decisions, one file each, dated the day decided: 154772 with their opinion text and 11 with CAP head matter only (CAP holds no opinion text for them); 14506 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "f8cc3283520fea76c895b8c01a7236813a009cfd",
+      "repo": "lexifina/united-states-ca9-caselaw",
+      "status": "stale"
+    },
+    "united-states/cadc-district/caselaw": {
+      "coverage": "27945 published decisions, one file each, dated the day decided: 27768 with their opinion text and 177 with CAP head matter only (CAP holds no opinion text for them); 3679 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "0d1481fcff6843486ce4a376af27e550cb3bc0b8",
+      "repo": "lexifina/united-states-cadc-district-caselaw",
+      "status": "stale"
+    },
+    "united-states/cadc/caselaw": {
+      "coverage": "31634 published decisions, one file each, dated the day decided: 31569 with their opinion text and 55 with CAP head matter only (CAP holds no opinion text for them); 3029 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "62676938e96e6d37b09688a01b1c35ab83adee47",
+      "repo": "lexifina/united-states-cadc-caselaw",
+      "status": "stale"
+    },
+    "united-states/cafc/caselaw": {
+      "coverage": "33581 published decisions, one file each, dated the day decided: 33571 with their opinion text and 18 with CAP head matter only (CAP holds no opinion text for them); 11686 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "b04cbc59179423c54812999a680cbc2927a9a5ec",
+      "repo": "lexifina/united-states-cafc-caselaw",
+      "status": "stale"
+    },
+    "united-states/california-appellate/caselaw": {
+      "coverage": "101047 published decisions, one file each, dated the day decided: 101035 with their opinion text and 12 with CAP head matter only (CAP holds no opinion text for them); 1331 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ec06a6be8cf067de17e6f84c3aece5e823d6dc07",
+      "repo": "lexifina/united-states-california-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/california-other-courts/caselaw": {
+      "coverage": "734 published decisions, one file each, dated the day decided: 701 with their opinion text and 33 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "2a9cbb34692bbdd1bbe12157c902e1c02789550e",
+      "repo": "lexifina/united-states-california-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/california/caselaw": {
+      "coverage": "42345 published decisions, one file each, dated the day decided: 41814 with their opinion text and 531 with CAP head matter only (CAP holds no opinion text for them); 215 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "f1ff8edfc766af280288c2dae20c5c9977d337e1",
+      "repo": "lexifina/united-states-california-caselaw",
+      "status": "current"
+    },
+    "united-states/california/statutes": {
+      "coverage": "from 2016",
+      "history": "in-force",
+      "last_verified": "2026-11-05",
+      "pin": "c63a579937275ede08d9e22de0128b7007176312",
+      "repo": "lexifina/united-states-california-law",
+      "status": "current"
+    },
+    "united-states/colorado-appellate/caselaw": {
+      "coverage": "14276 published decisions, one file each, dated the day decided: 14276 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 236 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "cb930e8c8fb3ff7099facf042d44c9de9eff1dd3",
+      "repo": "lexifina/united-states-colorado-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/colorado/acts": {
+      "coverage": "928 acts of Colorado with every dated version the source gives (929 versions), in force from 2021-01-20 to 2026-11-13",
+      "history": "in-force",
+      "last_verified": "2026-11-13",
+      "pin": "b3b1ae4ae1549e31dc6b76f2bfea8c3a97c0976e",
+      "repo": "lexifina/united-states-colorado-law",
+      "status": "current"
+    },
+    "united-states/colorado/caselaw": {
+      "coverage": "26368 published decisions, one file each, dated the day decided: 26348 with their opinion text and 20 with CAP head matter only (CAP holds no opinion text for them); 125 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "730219ad483f3488cfc06219fe616196f9ebbff5",
+      "repo": "lexifina/united-states-colorado-caselaw",
+      "status": "current"
+    },
+    "united-states/connecticut-appellate/caselaw": {
+      "coverage": "16576 published decisions, one file each, dated the day decided: 16576 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 180 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "127983774a288f0f745b53c1fbf8642583d23572",
+      "repo": "lexifina/united-states-connecticut-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/connecticut-other-courts/caselaw": {
+      "coverage": "6873 published decisions, one file each, dated the day decided: 6872 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 39 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "06de7980f7d6f759e93b5382c0b2412a7659362e",
+      "repo": "lexifina/united-states-connecticut-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/connecticut/acts": {
+      "coverage": "72 acts, 318 dated versions from 2019-01-01 to 2026-07-01",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "a144764cfc2c95de87c0b30946eff1c25022062a",
+      "repo": "lexifina/united-states-connecticut-law",
+      "status": "current"
+    },
+    "united-states/connecticut/caselaw": {
+      "coverage": "33787 published decisions, one file each, dated the day decided: 32631 with their opinion text and 1156 with CAP head matter only (CAP holds no opinion text for them); 205 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "954d2e8c15f56b592d60abfe862a63c257245357",
+      "repo": "lexifina/united-states-connecticut-caselaw",
+      "status": "current"
+    },
+    "united-states/dakota-territory/caselaw": {
+      "coverage": "311 published decisions, one file each, dated the day decided: 311 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "3ec91a3a1f1d5df5f66f4758254deba3174b9c6b",
+      "repo": "lexifina/united-states-dakota-territory-caselaw",
+      "status": "stale"
+    },
+    "united-states/delaware-other-courts/caselaw": {
+      "coverage": "9799 published decisions, one file each, dated the day decided: 9639 with their opinion text and 160 with CAP head matter only (CAP holds no opinion text for them); 75 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5804d44c5e2759af0ca6779936e0f580980c9853",
+      "repo": "lexifina/united-states-delaware-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/delaware/acts": {
+      "coverage": "1517 acts of United States (Delaware), the current text of each as of 2026-11-13",
+      "history": "current-only",
+      "last_verified": "2026-11-13",
+      "pin": "075c41698ffc5973822bc14d53df8652a25d2990",
+      "repo": "lexifina/united-states-delaware-law",
+      "status": "current"
+    },
+    "united-states/delaware/caselaw": {
+      "coverage": "7700 published decisions, one file each, dated the day decided: 6962 with their opinion text and 800 with CAP head matter only (CAP holds no opinion text for them); 49 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c1b0db0981ad81e2a63ec97e8ed2e693dcbc0413",
+      "repo": "lexifina/united-states-delaware-caselaw",
+      "status": "current"
+    },
+    "united-states/district-of-columbia-appellate/caselaw": {
+      "coverage": "2463 published decisions, one file each, dated the day decided: 2463 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 4 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "2509844e98910bcb484369c00b7b712156ad4ea8",
+      "repo": "lexifina/united-states-district-of-columbia-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/district-of-columbia-other-courts/caselaw": {
+      "coverage": "1335 published decisions, one file each, dated the day decided: 1317 with their opinion text and 18 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1ed15ee69ab50e81040b697d904eced74a283179",
+      "repo": "lexifina/united-states-district-of-columbia-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/district-of-columbia/caselaw": {
+      "coverage": "17787 published decisions, one file each, dated the day decided: 17987 with their opinion text and 126 with CAP head matter only (CAP holds no opinion text for them); 253 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "f2001dbd8367cf5b41ed2526857f81212e46a806",
+      "repo": "lexifina/united-states-district-of-columbia-caselaw",
+      "status": "current"
+    },
+    "united-states/district-of-columbia/statutes": {
+      "coverage": "from 2021-10-18",
+      "history": "in-force",
+      "last_verified": "",
+      "pin": "be82ac10f9a8b444e769758a0071cebb0b470508",
+      "repo": "lexifina/united-states-district-of-columbia-law",
+      "status": "unverified"
+    },
+    "united-states/federal-special/caselaw": {
+      "coverage": "143963 published decisions, one file each, dated the day decided: 145033 with their opinion text and 126 with CAP head matter only (CAP holds no opinion text for them); 9184 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5e2c2711771e2a231dc506825a2af97b991f803e",
+      "repo": "lexifina/united-states-federal-special-caselaw",
+      "status": "stale"
+    },
+    "united-states/federal/cfr": {
+      "coverage": "9176 acts, 35500 dated versions from 2015-12-18 to 2026-10-26",
+      "history": "in-force",
+      "last_verified": "2026-10-28",
+      "pin": "3b75afc49ee143bfecf7e3bc602a4ecc670f69be",
+      "repo": "lexifina/united-states-cfr-law",
+      "status": "stale"
+    },
+    "united-states/federal/irs-guidance": {
+      "coverage": "",
+      "history": "as-enacted",
+      "last_verified": "2026-11-09",
+      "pin": "508aee0de0377db0f8d7099c0b4020ff4d14f466",
+      "repo": "lexifina/united-states-irs-guidance-law",
+      "status": "stale"
+    },
+    "united-states/federal/usc": {
+      "coverage": "from 2018-01-12",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "234142d94c6969f6ecc186a773cd3c8c88c4211c",
+      "repo": "lexifina/united-states-law",
+      "status": "stale"
+    },
+    "united-states/florida-appellate/caselaw": {
+      "coverage": "265420 published decisions, one file each, dated the day decided: 264893 with their opinion text and 527 with CAP head matter only (CAP holds no opinion text for them); 490 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "b11f2ac05ca68e4b1e76a3867cf2b51720a4b172",
+      "repo": "lexifina/united-states-florida-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/florida-other-courts/caselaw": {
+      "coverage": "5137 published decisions, one file each, dated the day decided: 5133 with their opinion text and 4 with CAP head matter only (CAP holds no opinion text for them); 10 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "7f3af518c2aa3c74d7d8876af8c178e8fda99e29",
+      "repo": "lexifina/united-states-florida-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/florida/acts": {
+      "coverage": "50 acts, 140 dated versions from 2026-10-29 to 2026-11-03",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "1f954c957a7b0888cce7115bed3cb34b30b3b4d7",
+      "repo": "lexifina/united-states-florida-law",
+      "status": "current"
+    },
+    "united-states/florida/caselaw": {
+      "coverage": "58462 published decisions, one file each, dated the day decided: 57878 with their opinion text and 584 with CAP head matter only (CAP holds no opinion text for them); 84 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "8a64d87c76fe10d88895507693df80250678b1b9",
+      "repo": "lexifina/united-states-florida-caselaw",
+      "status": "current"
+    },
+    "united-states/georgia-appellate/caselaw": {
+      "coverage": "101981 published decisions, one file each, dated the day decided: 101967 with their opinion text and 14 with CAP head matter only (CAP holds no opinion text for them); 384 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4ed76ab1df0ad0845acb6b9700f118020b5741b8",
+      "repo": "lexifina/united-states-georgia-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/georgia/acts": {
+      "coverage": "54 acts, 54 dated versions from 2025-12-31 to 2025-12-31; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-03",
+      "pin": "eb16a3920300bf8b9826145d8afcc29f28342898",
+      "repo": "lexifina/united-states-georgia-law",
+      "status": "current"
+    },
+    "united-states/georgia/caselaw": {
+      "coverage": "70353 published decisions, one file each, dated the day decided: 69831 with their opinion text and 522 with CAP head matter only (CAP holds no opinion text for them); 137 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1e5d582d7406452d99d711feb830907b859b6fd1",
+      "repo": "lexifina/united-states-georgia-caselaw",
+      "status": "current"
+    },
+    "united-states/guam/acts": {
+      "coverage": "",
+      "history": "current-only",
+      "last_verified": "2026-10-28",
+      "pin": "d71208156abd65bc76ddf29596db6c64eee0a6e2",
+      "repo": "lexifina/united-states-guam-law",
+      "status": "current"
+    },
+    "united-states/guam/caselaw": {
+      "coverage": "278 published decisions, one file each, dated the day decided: 278 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 1 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "91235a96209657c06ef63e0ec51aa4ce34128a18",
+      "repo": "lexifina/united-states-guam-caselaw",
+      "status": "current"
+    },
+    "united-states/hawaii-appellate/caselaw": {
+      "coverage": "7314 published decisions, one file each, dated the day decided: 6879 with their opinion text and 435 with CAP head matter only (CAP holds no opinion text for them); 50 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bbf3895ee8608ace721aa9a1a317d966d26f7b61",
+      "repo": "lexifina/united-states-hawaii-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/hawaii/acts": {
+      "coverage": "1 acts, 1 dated versions from 2026-10-30 to 2026-10-30; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-10-30",
+      "pin": "6ed8ed7597205c44a835daf116e592f73c43f7fb",
+      "repo": "lexifina/united-states-hawaii-law",
+      "status": "current"
+    },
+    "united-states/hawaii/caselaw": {
+      "coverage": "11527 published decisions, one file each, dated the day decided: 11515 with their opinion text and 12 with CAP head matter only (CAP holds no opinion text for them); 70 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ee4368d15241603436160633dc64de998b4c9618",
+      "repo": "lexifina/united-states-hawaii-caselaw",
+      "status": "current"
+    },
+    "united-states/idaho-appellate/caselaw": {
+      "coverage": "4118 published decisions, one file each, dated the day decided: 4117 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 30 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "eaff20a85a2dcdd691d6576ac558a3a9626b5439",
+      "repo": "lexifina/united-states-idaho-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/idaho/acts": {
+      "coverage": "415 acts, 415 dated versions from 2026-03-15 to 2026-10-23; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "65168ed6d82027c28025281b5166404398c74150",
+      "repo": "lexifina/united-states-idaho-law",
+      "status": "current"
+    },
+    "united-states/idaho/caselaw": {
+      "coverage": "15282 published decisions, one file each, dated the day decided: 15281 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 148 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ff18e45049c26cd4c82331df72107f6204cc29a7",
+      "repo": "lexifina/united-states-idaho-caselaw",
+      "status": "current"
+    },
+    "united-states/illinois-appellate/caselaw": {
+      "coverage": "124880 published decisions, one file each, dated the day decided: 124679 with their opinion text and 201 with CAP head matter only (CAP holds no opinion text for them); 725 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "d09f0498d7ccef9b4f97f95e482dc89adbca5616",
+      "repo": "lexifina/united-states-illinois-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/illinois-other-courts/caselaw": {
+      "coverage": "10036 published decisions, one file each, dated the day decided: 10023 with their opinion text and 13 with CAP head matter only (CAP holds no opinion text for them); 5 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "cf553fba7887ac3d0bbcf741a39758295ab16f42",
+      "repo": "lexifina/united-states-illinois-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/illinois/acts": {
+      "coverage": "3460 acts, 3606 dated versions from 1994-07-01 to 2026-11-12",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "81a73e3c903e284b10c4334c02218f60da9377fe",
+      "repo": "lexifina/united-states-illinois-law",
+      "status": "current"
+    },
+    "united-states/illinois/caselaw": {
+      "coverage": "51638 published decisions, one file each, dated the day decided: 49414 with their opinion text and 2224 with CAP head matter only (CAP holds no opinion text for them); 117 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ca2ee96e5b499c99c19644f0c37cbfd7bc77181a",
+      "repo": "lexifina/united-states-illinois-caselaw",
+      "status": "current"
+    },
+    "united-states/indiana-appellate/caselaw": {
+      "coverage": "45239 published decisions, one file each, dated the day decided: 44532 with their opinion text and 707 with CAP head matter only (CAP holds no opinion text for them); 312 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "f5b8f59ae7b85f7044fde1cb6c6172169663f0ec",
+      "repo": "lexifina/united-states-indiana-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/indiana-other-courts/caselaw": {
+      "coverage": "782 published decisions, one file each, dated the day decided: 782 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 29 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "3a17131c79fc57f7a15c3f8111a6bd6d3edf677e",
+      "repo": "lexifina/united-states-indiana-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/indiana/caselaw": {
+      "coverage": "46686 published decisions, one file each, dated the day decided: 46460 with their opinion text and 226 with CAP head matter only (CAP holds no opinion text for them); 68 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "027660ba41783c7f200de3889c405ac69cef014f",
+      "repo": "lexifina/united-states-indiana-caselaw",
+      "status": "current"
+    },
+    "united-states/indiana/statutes": {
+      "coverage": "from 2017",
+      "history": "in-force",
+      "last_verified": "",
+      "pin": "7b3f90e3ed2d8a5364cff63e29c8868ced1dd40a",
+      "repo": "lexifina/united-states-indiana-law",
+      "status": "unverified"
+    },
+    "united-states/iowa-appellate/caselaw": {
+      "coverage": "5903 published decisions, one file each, dated the day decided: 5853 with their opinion text and 50 with CAP head matter only (CAP holds no opinion text for them); 26 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ead9bd4c2aaf6ea9295b06be5f1cbcb2a1721eae",
+      "repo": "lexifina/united-states-iowa-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/iowa/acts": {
+      "coverage": "1283 acts of United States (Iowa) with every dated version the source gives (2327 versions), in force from 2024-12-09 to 2026-11-11",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "e26ab2ae1462f702b0bc304aa25fff5f841dc030",
+      "repo": "lexifina/united-states-iowa-law",
+      "status": "current"
+    },
+    "united-states/iowa/caselaw": {
+      "coverage": "51757 published decisions, one file each, dated the day decided: 51744 with their opinion text and 13 with CAP head matter only (CAP holds no opinion text for them); 170 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5cef8bd2b9463af6eca5da56a8c2cb3081ad0936",
+      "repo": "lexifina/united-states-iowa-caselaw",
+      "status": "current"
+    },
+    "united-states/kansas-appellate/caselaw": {
+      "coverage": "9011 published decisions, one file each, dated the day decided: 7635 with their opinion text and 1376 with CAP head matter only (CAP holds no opinion text for them); 116 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c6cc555538348294ddbdbc9d9a55db8ec15b939d",
+      "repo": "lexifina/united-states-kansas-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/kansas/acts": {
+      "coverage": "178 acts, 178 dated versions from 2023-03-16 to 2026-07-01; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-11",
+      "pin": "7a1844619df14bad82e574e48f329fb5d38d63c8",
+      "repo": "lexifina/united-states-kansas-law",
+      "status": "current"
+    },
+    "united-states/kansas/caselaw": {
+      "coverage": "41164 published decisions, one file each, dated the day decided: 41149 with their opinion text and 15 with CAP head matter only (CAP holds no opinion text for them); 151 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "0bb6cb43f670c57cd8ed78e573e6f6fd2445dbb9",
+      "repo": "lexifina/united-states-kansas-caselaw",
+      "status": "current"
+    },
+    "united-states/kentucky-appellate/caselaw": {
+      "coverage": "5724 published decisions, one file each, dated the day decided: 5724 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 76 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c4b8d9d18212f90c9d29eeeefcf51998d6e96fe8",
+      "repo": "lexifina/united-states-kentucky-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/kentucky/acts": {
+      "coverage": "482 acts, 482 dated versions from 1942-10-01 to 2026-10-29; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "bf6408a0e2f2db4893ab690731ec5975e0f02f71",
+      "repo": "lexifina/united-states-kentucky-law",
+      "status": "current"
+    },
+    "united-states/kentucky/caselaw": {
+      "coverage": "73681 published decisions, one file each, dated the day decided: 73678 with their opinion text and 3 with CAP head matter only (CAP holds no opinion text for them); 99 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "63ffad98376ab299d1e86c63b6aeb9a73ecf6cba",
+      "repo": "lexifina/united-states-kentucky-caselaw",
+      "status": "current"
+    },
+    "united-states/louisiana-appellate/caselaw": {
+      "coverage": "115874 published decisions, one file each, dated the day decided: 115864 with their opinion text and 10 with CAP head matter only (CAP holds no opinion text for them); 551 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "9dbe57860e40b3572ba78b95fd852b6927c770cf",
+      "repo": "lexifina/united-states-louisiana-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/louisiana/acts": {
+      "coverage": "937 acts, 937 dated versions from 1997-05-01 to 2026-11-10; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "94e057f3176d7eb5a85cb41731c25e5067552f1e",
+      "repo": "lexifina/united-states-louisiana-law",
+      "status": "current"
+    },
+    "united-states/louisiana/caselaw": {
+      "coverage": "185473 published decisions, one file each, dated the day decided: 183686 with their opinion text and 1787 with CAP head matter only (CAP holds no opinion text for them); 148 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "12a6e2c416cdb44379fd24e6a7883445bf77232a",
+      "repo": "lexifina/united-states-louisiana-caselaw",
+      "status": "current"
+    },
+    "united-states/maine/acts": {
+      "coverage": "525 acts of Maine, the current text of each as of 2026-11-06",
+      "history": "current-only",
+      "last_verified": "2026-11-13",
+      "pin": "54320f941684bcdd8c90489997c1e54fbce2431a",
+      "repo": "lexifina/united-states-maine-law",
+      "status": "current"
+    },
+    "united-states/maine/caselaw": {
+      "coverage": "27886 published decisions, one file each, dated the day decided: 27791 with their opinion text and 95 with CAP head matter only (CAP holds no opinion text for them); 141 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5ed6eeca0813a49e24c6c95247f8a3a158df846d",
+      "repo": "lexifina/united-states-maine-caselaw",
+      "status": "current"
+    },
+    "united-states/maryland-appellate/caselaw": {
+      "coverage": "10454 published decisions, one file each, dated the day decided: 10453 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 252 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "3ad33aca9e449e0f668e1eb5b27920f8a68f411b",
+      "repo": "lexifina/united-states-maryland-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/maryland-other-courts/caselaw": {
+      "coverage": "2160 published decisions, one file each, dated the day decided: 2123 with their opinion text and 37 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "8df125626a5225d1658ae815b41709d716c1008c",
+      "repo": "lexifina/united-states-maryland-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/maryland/acts": {
+      "coverage": "37 acts, 37 dated versions from 2026-10-30 to 2026-11-03; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-03",
+      "pin": "7a81565558c1d90ed350f0c2150eb249c68c9c41",
+      "repo": "lexifina/united-states-maryland-law",
+      "status": "current"
+    },
+    "united-states/maryland/caselaw": {
+      "coverage": "33129 published decisions, one file each, dated the day decided: 31356 with their opinion text and 1773 with CAP head matter only (CAP holds no opinion text for them); 245 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4f741f4b62f0c6615f5ff7fb15d3393c9e860897",
+      "repo": "lexifina/united-states-maryland-caselaw",
+      "status": "current"
+    },
+    "united-states/massachusetts-appellate/caselaw": {
+      "coverage": "20584 published decisions, one file each, dated the day decided: 20283 with their opinion text and 301 with CAP head matter only (CAP holds no opinion text for them); 227 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5ffef44a9ff45d4b420ccb47d1f94bb510ca5391",
+      "repo": "lexifina/united-states-massachusetts-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/massachusetts-other-courts/caselaw": {
+      "coverage": "9791 published decisions, one file each, dated the day decided: 9789 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 162 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "d2bd52e67194f57e9c39c05390302d2f48637489",
+      "repo": "lexifina/united-states-massachusetts-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/massachusetts/acts": {
+      "coverage": "506 acts of Massachusetts with every dated version the source gives (507 versions), in force from 2010-09-21 to 2026-11-13",
+      "history": "in-force",
+      "last_verified": "2026-11-13",
+      "pin": "f755b708fa09ba4de1f1e51952aca63b8a142fe2",
+      "repo": "lexifina/united-states-massachusetts-law",
+      "status": "current"
+    },
+    "united-states/massachusetts/caselaw": {
+      "coverage": "62763 published decisions, one file each, dated the day decided: 61500 with their opinion text and 1263 with CAP head matter only (CAP holds no opinion text for them); 279 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "55c7171a6945f3457b4f714e78c879dfb158eeec",
+      "repo": "lexifina/united-states-massachusetts-caselaw",
+      "status": "current"
+    },
+    "united-states/michigan-appellate/caselaw": {
+      "coverage": "26814 published decisions, one file each, dated the day decided: 26814 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 373 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "75170e78182ace440e6340fed13e4419af7fa7cc",
+      "repo": "lexifina/united-states-michigan-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/michigan/acts": {
+      "coverage": "2372 acts, 2403 dated versions from 1957-06-06 to 2026-10-30",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "560c882b935804f1999fb64dba20544afb190a0e",
+      "repo": "lexifina/united-states-michigan-law",
+      "status": "current"
+    },
+    "united-states/michigan/caselaw": {
+      "coverage": "56084 published decisions, one file each, dated the day decided: 55870 with their opinion text and 214 with CAP head matter only (CAP holds no opinion text for them); 101 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4ab4907c6afd479f4816ac08c4bd99bafa43143d",
+      "repo": "lexifina/united-states-michigan-caselaw",
+      "status": "current"
+    },
+    "united-states/minnesota-appellate/caselaw": {
+      "coverage": "12278 published decisions, one file each, dated the day decided: 12275 with their opinion text and 3 with CAP head matter only (CAP holds no opinion text for them); 164 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "73b85ddc17f1bc4dcfdbe838fc585829b773a6bd",
+      "repo": "lexifina/united-states-minnesota-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/minnesota/acts": {
+      "coverage": "916 acts, 1574 dated versions from 1997-12-31 to 2026-11-03",
+      "history": "in-force",
+      "last_verified": "2026-11-03",
+      "pin": "fdaaefe6dfc74c212ae7dad54d9a666efa54262c",
+      "repo": "lexifina/united-states-minnesota-law",
+      "status": "current"
+    },
+    "united-states/minnesota/caselaw": {
+      "coverage": "43689 published decisions, one file each, dated the day decided: 43665 with their opinion text and 24 with CAP head matter only (CAP holds no opinion text for them); 149 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "157cc4773dc8615f4f68b7fb44662822951e7554",
+      "repo": "lexifina/united-states-minnesota-caselaw",
+      "status": "current"
+    },
+    "united-states/mississippi-appellate/caselaw": {
+      "coverage": "11788 published decisions, one file each, dated the day decided: 11788 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 55 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "a8d481c0ff3fa8d8233079e6a0e74eb89ff187c3",
+      "repo": "lexifina/united-states-mississippi-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/mississippi/acts": {
+      "coverage": "9 acts, 9 dated versions from 2022-05-01 to 2026-07-01; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-05",
+      "pin": "85b052c3b0e88724b23df5c202e794db8bce0831",
+      "repo": "lexifina/united-states-mississippi-law",
+      "status": "current"
+    },
+    "united-states/mississippi/caselaw": {
+      "coverage": "48707 published decisions, one file each, dated the day decided: 48477 with their opinion text and 230 with CAP head matter only (CAP holds no opinion text for them); 168 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "237a15d692f948ca579409200eda750ef6e09da8",
+      "repo": "lexifina/united-states-mississippi-caselaw",
+      "status": "current"
+    },
+    "united-states/missouri-appellate/caselaw": {
+      "coverage": "97850 published decisions, one file each, dated the day decided: 97839 with their opinion text and 11 with CAP head matter only (CAP holds no opinion text for them); 490 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "d7ee2e47875a4e56800a281e5dbe4ab73e07dde4",
+      "repo": "lexifina/united-states-missouri-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/missouri/acts": {
+      "coverage": "current-only chapters and session laws as printed",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "7f070d49b9d812b2d8d4e8489ebaa47a6916808e",
+      "repo": "lexifina/united-states-missouri-law",
+      "status": "current"
+    },
+    "united-states/missouri/caselaw": {
+      "coverage": "41601 published decisions, one file each, dated the day decided: 41601 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 155 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "32f6ae81d401ce111ef0a105a3ef5435614460ec",
+      "repo": "lexifina/united-states-missouri-caselaw",
+      "status": "current"
+    },
+    "united-states/montana/acts": {
+      "coverage": "55 acts, 146 dated versions from 2015-10-01 to 2026-10-28",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "f80be570e81e0c0f39d1a2f3769938b0474dd035",
+      "repo": "lexifina/united-states-montana-law",
+      "status": "current"
+    },
+    "united-states/montana/caselaw": {
+      "coverage": "28479 published decisions, one file each, dated the day decided: 28137 with their opinion text and 342 with CAP head matter only (CAP holds no opinion text for them); 160 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "afdfce7668248f35ae2eed42df57d99eff96df3d",
+      "repo": "lexifina/united-states-montana-caselaw",
+      "status": "current"
+    },
+    "united-states/nebraska-appellate/caselaw": {
+      "coverage": "1521 published decisions, one file each, dated the day decided: 1521 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 19 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "46936bcbe3943c0fd28ecacc8dfb102e83de290e",
+      "repo": "lexifina/united-states-nebraska-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/nebraska/acts": {
+      "coverage": "6 acts, 6 dated versions from 2024-12-02 to 2026-10-29; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "ac09c580da8d962c40323334a9152731a079240b",
+      "repo": "lexifina/united-states-nebraska-law",
+      "status": "current"
+    },
+    "united-states/nebraska/caselaw": {
+      "coverage": "37385 published decisions, one file each, dated the day decided: 37383 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 116 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "fe7e319601eb70e034c78b4d1085f0d86b5bedda",
+      "repo": "lexifina/united-states-nebraska-caselaw",
+      "status": "current"
+    },
+    "united-states/nevada/acts": {
+      "coverage": "825 acts, 899 dated versions from 2022-05-01 to 2026-10-23",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "a2935fd7018e31d3bfafc1daf8b1abe1f249e504",
+      "repo": "lexifina/united-states-nevada-law",
+      "status": "current"
+    },
+    "united-states/nevada/caselaw": {
+      "coverage": "13707 published decisions, one file each, dated the day decided: 11714 with their opinion text and 1993 with CAP head matter only (CAP holds no opinion text for them); 63 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "89e0d45d383bbc16807b0c92bb69a3411c6e64ab",
+      "repo": "lexifina/united-states-nevada-caselaw",
+      "status": "current"
+    },
+    "united-states/new-hampshire-other-courts/caselaw": {
+      "coverage": "3333 published decisions, one file each, dated the day decided: 3333 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "23dba9dc05163e76fb289e55366315322b8cc777",
+      "repo": "lexifina/united-states-new-hampshire-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-hampshire/acts": {
+      "coverage": "1111 acts, 1111 dated versions from 2020-10-19 to 2026-11-08; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "da9b5e1fc8da280bc320b4983e66e92093a7a787",
+      "repo": "lexifina/united-states-new-hampshire-law",
+      "status": "current"
+    },
+    "united-states/new-hampshire/caselaw": {
+      "coverage": "18195 published decisions, one file each, dated the day decided: 18177 with their opinion text and 18 with CAP head matter only (CAP holds no opinion text for them); 101 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5bd983044d7b6e81683f9de75fb353a11c773577",
+      "repo": "lexifina/united-states-new-hampshire-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-jersey-appellate/caselaw": {
+      "coverage": "20752 published decisions, one file each, dated the day decided: 20752 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 419 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "6b1ba4935ffc890f593eafe85ac482ebef9e5988",
+      "repo": "lexifina/united-states-new-jersey-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-jersey-other-courts/caselaw": {
+      "coverage": "21683 published decisions, one file each, dated the day decided: 21683 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 223 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "99f64d4f97d802aa6f98c8d8a3776f9ef0a4bbc2",
+      "repo": "lexifina/united-states-new-jersey-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-jersey/caselaw": {
+      "coverage": "72591 published decisions, one file each, dated the day decided: 71364 with their opinion text and 1227 with CAP head matter only (CAP holds no opinion text for them); 226 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bd312ba301e13af0aef794326262369b1f8a3589",
+      "repo": "lexifina/united-states-new-jersey-caselaw",
+      "status": "current"
+    },
+    "united-states/new-jersey/statutes": {
+      "coverage": "from 2021-09-22",
+      "history": "in-force",
+      "last_verified": "",
+      "pin": "0fe307898c6a28b56387f11dd05adb367cc803c0",
+      "repo": "lexifina/united-states-new-jersey-law",
+      "status": "unverified"
+    },
+    "united-states/new-mexico-appellate/caselaw": {
+      "coverage": "6987 published decisions, one file each, dated the day decided: 6987 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 101 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "aef5812ead701bb3c3154f59a56fcd6913677c46",
+      "repo": "lexifina/united-states-new-mexico-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-mexico/caselaw": {
+      "coverage": "11479 published decisions, one file each, dated the day decided: 11479 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 55 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "7a6992d2b8b7e773eed74e499107a735529c5c82",
+      "repo": "lexifina/united-states-new-mexico-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-york-appellate-1714-1933/caselaw": {
+      "coverage": "240729 published decisions, one file each, dated the day decided: 240658 with their opinion text and 71 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bf59af4847529f73a820493500492915fe335e70",
+      "repo": "lexifina/united-states-new-york-appellate-1714-1933-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-york-appellate-1934-1991/caselaw": {
+      "coverage": "250800 published decisions, one file each, dated the day decided: 250271 with their opinion text and 529 with CAP head matter only (CAP holds no opinion text for them); 230 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "b28598feb7d59e5f5c1583cd8f1e1d65bdc5b425",
+      "repo": "lexifina/united-states-new-york-appellate-1934-1991-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-york-appellate-1992-2018/caselaw": {
+      "coverage": "251671 published decisions, one file each, dated the day decided: 251304 with their opinion text and 367 with CAP head matter only (CAP holds no opinion text for them); 685 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "b90d45a742c9fdf00100693840e24d8102a50e4a",
+      "repo": "lexifina/united-states-new-york-appellate-1992-2018-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-york-other-courts/caselaw": {
+      "coverage": "207417 published decisions, one file each, dated the day decided: 207196 with their opinion text and 221 with CAP head matter only (CAP holds no opinion text for them); 453 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "20fda024c32153ec7c9f1bfd19af3ed2ea52a19d",
+      "repo": "lexifina/united-states-new-york-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/new-york/acts": {
+      "coverage": "3 acts, 5 dated versions from 2022-01-01 to 2026-01-01",
+      "history": "in-force",
+      "last_verified": "2026-11-11",
+      "pin": "7d20daafa11f6eff48dc45cb86162513cdc8b045",
+      "repo": "lexifina/united-states-new-york-law",
+      "status": "current"
+    },
+    "united-states/new-york/caselaw": {
+      "coverage": "111440 published decisions, one file each, dated the day decided: 110403 with their opinion text and 1037 with CAP head matter only (CAP holds no opinion text for them); 115 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5a21be330b8af3d76a699d3336688de0e8791fd0",
+      "repo": "lexifina/united-states-new-york-caselaw",
+      "status": "current"
+    },
+    "united-states/new-york/new-york-city/acts": {
+      "coverage": "462 adopted-rule instruments, selected numbered enacted Local Laws, 6,106 Administrative Code sections and 627 Charter sections in historical 2017 source snapshots",
+      "history": "as-enacted",
+      "last_verified": "2026-11-12",
+      "pin": "e18f3cb88505838c9a75ddfe9b3c74cb5d72af48",
+      "repo": "lexifina/united-states-new-york-city-law",
+      "status": "current"
+    },
+    "united-states/north-carolina-appellate/caselaw": {
+      "coverage": "38320 published decisions, one file each, dated the day decided: 31804 with their opinion text and 6516 with CAP head matter only (CAP holds no opinion text for them); 262 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4e97b83237855f07f4b0ca31e3ec5db95a3b3827",
+      "repo": "lexifina/united-states-north-carolina-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/north-carolina-other-courts/caselaw": {
+      "coverage": "1009 published decisions, one file each, dated the day decided: 1005 with their opinion text and 4 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "c2517c139cb5dd67b67760917f5fe18072a3db04",
+      "repo": "lexifina/united-states-north-carolina-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/north-carolina/acts": {
+      "coverage": "398 acts of United States (North Carolina) with every dated version the source gives (421 versions), in force from 2019-02-24 to 2026-11-11",
+      "history": "in-force",
+      "last_verified": "2026-11-13",
+      "pin": "d413b6b5a2c12004ab92e01e6cb72befca210b8a",
+      "repo": "lexifina/united-states-north-carolina-law",
+      "status": "current"
+    },
+    "united-states/north-carolina/caselaw": {
+      "coverage": "77852 published decisions, one file each, dated the day decided: 74392 with their opinion text and 3460 with CAP head matter only (CAP holds no opinion text for them); 61 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "2433790e9ee0f77b6627da4a3020bdf6979222ee",
+      "repo": "lexifina/united-states-north-carolina-caselaw",
+      "status": "current"
+    },
+    "united-states/north-dakota/acts": {
+      "coverage": "3198 acts of United States (North Dakota), the current text of each as of 2026-11-13",
+      "history": "current-only",
+      "last_verified": "2026-11-13",
+      "pin": "e8b54e60bf150ec54796eebe64bd7cd98e84ebca",
+      "repo": "lexifina/united-states-north-dakota-law",
+      "status": "current"
+    },
+    "united-states/north-dakota/caselaw": {
+      "coverage": "17000 published decisions, one file each, dated the day decided: 17000 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 163 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ed798fc177f28ac99389b22956bc72f7e58566ea",
+      "repo": "lexifina/united-states-north-dakota-caselaw",
+      "status": "current"
+    },
+    "united-states/northern-mariana-islands/acts": {
+      "coverage": "",
+      "history": "current-only",
+      "last_verified": "2026-10-29",
+      "pin": "b82fb26652b9e9c37cb60493481d57fb4c84fcea",
+      "repo": "lexifina/united-states-northern-mariana-islands-law",
+      "status": "current"
+    },
+    "united-states/northern-mariana-islands/caselaw": {
+      "coverage": "362 published decisions, one file each, dated the day decided: 362 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 8 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "db68587bd72dced9137798ba1ceeeee94c7592d5",
+      "repo": "lexifina/united-states-northern-mariana-islands-caselaw",
+      "status": "current"
+    },
+    "united-states/ohio-appellate/caselaw": {
+      "coverage": "49621 published decisions, one file each, dated the day decided: 49510 with their opinion text and 111 with CAP head matter only (CAP holds no opinion text for them); 65 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "e42cc89ce57121e4a3c4210cf6fdf78c2a50e78b",
+      "repo": "lexifina/united-states-ohio-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/ohio-other-courts/caselaw": {
+      "coverage": "20732 published decisions, one file each, dated the day decided: 20537 with their opinion text and 195 with CAP head matter only (CAP holds no opinion text for them); 8 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "7f7ea09f0715f0c6b5310446f1f1ed2eaf40b652",
+      "repo": "lexifina/united-states-ohio-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/ohio/acts": {
+      "coverage": "5044 acts of United States (Ohio), the current text of each as of 2026-11-13",
+      "history": "current-only",
+      "last_verified": "2026-11-13",
+      "pin": "a98a5b9376bed2d7c80982c38863682591d21f95",
+      "repo": "lexifina/united-states-ohio-law",
+      "status": "current"
+    },
+    "united-states/ohio/caselaw": {
+      "coverage": "79498 published decisions, one file each, dated the day decided: 76600 with their opinion text and 2898 with CAP head matter only (CAP holds no opinion text for them); 63 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5b3c61885d48d55818a04844d1a8cfca5f5c2416",
+      "repo": "lexifina/united-states-ohio-caselaw",
+      "status": "current"
+    },
+    "united-states/oklahoma-appellate/caselaw": {
+      "coverage": "5438 published decisions, one file each, dated the day decided: 5438 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 129 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1dd97588b75bcc57f83d00b4e169c279e317afbf",
+      "repo": "lexifina/united-states-oklahoma-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/oklahoma/acts": {
+      "coverage": "87 acts, 87 dated versions from 2019-12-22 to 2025-12-31; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "1ee28f4fddbe9f9d280e7683afd3cd236226d691",
+      "repo": "lexifina/united-states-oklahoma-law",
+      "status": "current"
+    },
+    "united-states/oklahoma/caselaw": {
+      "coverage": "61278 published decisions, one file each, dated the day decided: 61272 with their opinion text and 6 with CAP head matter only (CAP holds no opinion text for them); 152 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "22141725f80d1536ed69dc4a4e4149c729e193fa",
+      "repo": "lexifina/united-states-oklahoma-caselaw",
+      "status": "current"
+    },
+    "united-states/oregon-appellate/caselaw": {
+      "coverage": "33257 published decisions, one file each, dated the day decided: 31355 with their opinion text and 1902 with CAP head matter only (CAP holds no opinion text for them); 174 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1843da10654e7d783dbb58edf7900b188e272f21",
+      "repo": "lexifina/united-states-oregon-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/oregon-other-courts/caselaw": {
+      "coverage": "1516 published decisions, one file each, dated the day decided: 1515 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 15 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "00b46f86c90cc5454f4b806d78823e754c4663db",
+      "repo": "lexifina/united-states-oregon-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/oregon/acts": {
+      "coverage": "581 acts, 581 dated versions from 2019-08-25 to 2026-10-31; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "2962392136f269d7a72f25bb79fae86795659cdb",
+      "repo": "lexifina/united-states-oregon-law",
+      "status": "current"
+    },
+    "united-states/oregon/caselaw": {
+      "coverage": "24879 published decisions, one file each, dated the day decided: 23949 with their opinion text and 930 with CAP head matter only (CAP holds no opinion text for them); 109 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "8c4296881a621126c641a03d79ce28a5d9c48102",
+      "repo": "lexifina/united-states-oregon-caselaw",
+      "status": "current"
+    },
+    "united-states/pennsylvania-appellate/caselaw": {
+      "coverage": "115406 published decisions, one file each, dated the day decided: 106607 with their opinion text and 8799 with CAP head matter only (CAP holds no opinion text for them); 621 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "e7d0935d7ea6eec40029138b827ded67ff7b039d",
+      "repo": "lexifina/united-states-pennsylvania-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/pennsylvania-other-courts/caselaw": {
+      "coverage": "38589 published decisions, one file each, dated the day decided: 38584 with their opinion text and 5 with CAP head matter only (CAP holds no opinion text for them); 155 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bc9a45be8753a0b78926dfd3960871a7dc10010e",
+      "repo": "lexifina/united-states-pennsylvania-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/pennsylvania/acts": {
+      "coverage": "3510 acts, 3514 dated versions from 1859-03-30 to 2026-11-10",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "5f449a9885a6cc6405aab9b90f33ef4de6f18bcb",
+      "repo": "lexifina/united-states-pennsylvania-law",
+      "status": "current"
+    },
+    "united-states/pennsylvania/caselaw": {
+      "coverage": "89271 published decisions, one file each, dated the day decided: 88776 with their opinion text and 495 with CAP head matter only (CAP holds no opinion text for them); 173 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ffab786705eca87f398b9e6289190a41e8919d20",
+      "repo": "lexifina/united-states-pennsylvania-caselaw",
+      "status": "current"
+    },
+    "united-states/puerto-rico-appellate/caselaw": {
+      "coverage": "2678 published decisions, one file each, dated the day decided: 2678 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 25 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "6b0464919026af13d3e612403c45beff126f94ef",
+      "repo": "lexifina/united-states-puerto-rico-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/puerto-rico/caselaw": {
+      "coverage": "39425 published decisions, one file each, dated the day decided: 39415 with their opinion text and 10 with CAP head matter only (CAP holds no opinion text for them); 134 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "eda66c3b5cae385988b9accf4d924b82b458f568",
+      "repo": "lexifina/united-states-puerto-rico-caselaw",
+      "status": "stale"
+    },
+    "united-states/rhode-island-other-courts/caselaw": {
+      "coverage": "2306 published decisions, one file each, dated the day decided: 2289 with their opinion text and 17 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "45c03441760b94e98f54a58b5a1cd6587ead752a",
+      "repo": "lexifina/united-states-rhode-island-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/rhode-island/acts": {
+      "coverage": "160 acts, 160 dated versions from 2024-06-17 to 2026-10-31; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-10",
+      "pin": "e142f596a886fefeec97c93f409a57f5dfb0e1d1",
+      "repo": "lexifina/united-states-rhode-island-law",
+      "status": "current"
+    },
+    "united-states/rhode-island/caselaw": {
+      "coverage": "24376 published decisions, one file each, dated the day decided: 24375 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 85 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "22daf2ad15bc1080c697d43af9a9856dc6bbf247",
+      "repo": "lexifina/united-states-rhode-island-caselaw",
+      "status": "stale"
+    },
+    "united-states/south-carolina-appellate/caselaw": {
+      "coverage": "10645 published decisions, one file each, dated the day decided: 10638 with their opinion text and 7 with CAP head matter only (CAP holds no opinion text for them); 94 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "6559ed2e3c15741fee77fce7f5f8f6152432913e",
+      "repo": "lexifina/united-states-south-carolina-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/south-carolina-other-courts/caselaw": {
+      "coverage": "2924 published decisions, one file each, dated the day decided: 2921 with their opinion text and 3 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "8772738e91e5b8ee5f8bdd5d385ee562e4b813fd",
+      "repo": "lexifina/united-states-south-carolina-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/south-carolina/acts": {
+      "coverage": "1398 acts, 1398 dated versions from 1979-04-13 to 2026-11-02; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-11",
+      "pin": "8c039ffe2c821e204d275dc9a56b10f56b31882a",
+      "repo": "lexifina/united-states-south-carolina-law",
+      "status": "current"
+    },
+    "united-states/south-carolina/caselaw": {
+      "coverage": "28067 published decisions, one file each, dated the day decided: 28062 with their opinion text and 5 with CAP head matter only (CAP holds no opinion text for them); 98 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "7d6927e63e3e37acdbdd1ebdd71f74a579c6b974",
+      "repo": "lexifina/united-states-south-carolina-caselaw",
+      "status": "current"
+    },
+    "united-states/south-dakota/acts": {
+      "coverage": "71 acts, 71 dated versions from 2026-09-03 to 2026-09-03; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-03",
+      "pin": "a3e4b2f88225e1e276febab68cbb3a312169cb3e",
+      "repo": "lexifina/united-states-south-dakota-law",
+      "status": "current"
+    },
+    "united-states/south-dakota/caselaw": {
+      "coverage": "16776 published decisions, one file each, dated the day decided: 16639 with their opinion text and 137 with CAP head matter only (CAP holds no opinion text for them); 109 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5095aedb0efa4fae4eff4c22d109dc653b846e38",
+      "repo": "lexifina/united-states-south-dakota-caselaw",
+      "status": "current"
+    },
+    "united-states/supreme-court/caselaw": {
+      "coverage": "386132 files, one per entry, dated the day decided: the Supreme Court's opinions, per curiam decisions and orders as the United States Reports print them, every order its own entry (the first build's 328,247 were 30,240 opinions, 29,213 short per curiam decisions and orders, and 268,794 one-line mem",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "722c94b80c6e55192c238328e8a7d052da6f1b0c",
+      "repo": "lexifina/united-states-supreme-court-caselaw",
+      "status": "stale"
+    },
+    "united-states/tax-court/caselaw": {
+      "coverage": "13888 decisions, one file and one commit each, dated the day filed: 340 T.C. opinions, 8,899 memorandum opinions (T.C. Memo.), 2,788 summary opinions, 1,861 bench opinions; 43456 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "f9dc5cdbb0fdad7b7b9cc96cee40db9bd342b6c5",
+      "repo": "lexifina/united-states-tax-court-caselaw",
+      "status": "stale"
+    },
+    "united-states/tennessee-appellate/caselaw": {
+      "coverage": "12333 published decisions, one file each, dated the day decided: 12333 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 90 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "eaf4c33a80def140fb56ccb8bb8510ffdb557043",
+      "repo": "lexifina/united-states-tennessee-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/tennessee-other-courts/caselaw": {
+      "coverage": "609 published decisions, one file each, dated the day decided: 607 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 0 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "de51618fe62aadf727d14933c28a966aae011ffc",
+      "repo": "lexifina/united-states-tennessee-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/tennessee/acts": {
+      "coverage": "1246 acts, 1689 dated versions from 2020-09-01 to 2021-05-21",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "b5332b6d8ac6c372a14756501107d5b1e3902b7b",
+      "repo": "lexifina/united-states-tennessee-law",
+      "status": "current"
+    },
+    "united-states/tennessee/caselaw": {
+      "coverage": "25225 published decisions, one file each, dated the day decided: 25104 with their opinion text and 121 with CAP head matter only (CAP holds no opinion text for them); 87 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "69f04fb720abcb259dd6b9c76d9223b970740416",
+      "repo": "lexifina/united-states-tennessee-caselaw",
+      "status": "current"
+    },
+    "united-states/texas-appellate/caselaw": {
+      "coverage": "148223 published decisions, one file each, dated the day decided: 148223 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 1128 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "e473eaec94ee6ab40570a4d97c7e0452377e68ba",
+      "repo": "lexifina/united-states-texas-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/texas/acts": {
+      "coverage": "31 acts, 92 dated versions from 1989-09-01 to 2026-10-01",
+      "history": "in-force",
+      "last_verified": "2026-11-03",
+      "pin": "cf680ea448974a7de1e59e75d1b940a6be2ca21f",
+      "repo": "lexifina/united-states-texas-law",
+      "status": "current"
+    },
+    "united-states/texas/caselaw": {
+      "coverage": "84189 published decisions, one file each, dated the day decided: 84155 with their opinion text and 34 with CAP head matter only (CAP holds no opinion text for them); 172 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "047504777807e56d84ebc65e6374d617889b0f67",
+      "repo": "lexifina/united-states-texas-caselaw",
+      "status": "current"
+    },
+    "united-states/tribal/caselaw": {
+      "coverage": "2277 published decisions, one file each, dated the day decided: 2277 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 11 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "297f2e1e4dab684b8b74d1d20ae46935b51613ae",
+      "repo": "lexifina/united-states-tribal-caselaw",
+      "status": "stale"
+    },
+    "united-states/utah-appellate/caselaw": {
+      "coverage": "6027 published decisions, one file each, dated the day decided: 6027 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 88 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "313f64d7f3f52cb9ecfc245a3707db88e6ea363e",
+      "repo": "lexifina/united-states-utah-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/utah/caselaw": {
+      "coverage": "16816 published decisions, one file each, dated the day decided: 16603 with their opinion text and 213 with CAP head matter only (CAP holds no opinion text for them); 114 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "930673772e766ae86ec62e76abdaa2cfc29c185e",
+      "repo": "lexifina/united-states-utah-caselaw",
+      "status": "current"
+    },
+    "united-states/utah/statutes": {
+      "coverage": "from 2026",
+      "history": "in-force",
+      "last_verified": "",
+      "pin": "2b32a7b624f75ff6c32a45507bf5c21c6760310d",
+      "repo": "lexifina/united-states-utah-law",
+      "status": "unverified"
+    },
+    "united-states/vermont/acts": {
+      "coverage": "47 acts, 130 dated versions from 2009-07-01 to 2026-11-02",
+      "history": "in-force",
+      "last_verified": "2026-11-13",
+      "pin": "32094e6b37ef5425faed20d10f1a8398e1d53c7d",
+      "repo": "lexifina/united-states-vermont-law",
+      "status": "current"
+    },
+    "united-states/vermont/caselaw": {
+      "coverage": "22671 published decisions, one file each, dated the day decided: 22344 with their opinion text and 327 with CAP head matter only (CAP holds no opinion text for them); 83 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "5811f2b3f87030eb67c5f958245a73b178832955",
+      "repo": "lexifina/united-states-vermont-caselaw",
+      "status": "current"
+    },
+    "united-states/virgin-islands-other-courts/caselaw": {
+      "coverage": "2991 published decisions, one file each, dated the day decided: 2991 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 194 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "ee16cfb1c1fcb9ae91baaea91ceae764ae6e07a5",
+      "repo": "lexifina/united-states-virgin-islands-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/virgin-islands/caselaw": {
+      "coverage": "476 published decisions, one file each, dated the day decided: 476 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 49 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "7f4d8f8b4fa5db983108c348668b89fff7c346a4",
+      "repo": "lexifina/united-states-virgin-islands-caselaw",
+      "status": "stale"
+    },
+    "united-states/virginia-appellate/caselaw": {
+      "coverage": "6262 published decisions, one file each, dated the day decided: 6250 with their opinion text and 12 with CAP head matter only (CAP holds no opinion text for them); 52 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "d44821f161813446b6c5df384f790cb1b7ee30f9",
+      "repo": "lexifina/united-states-virginia-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/virginia-other-courts/caselaw": {
+      "coverage": "11434 published decisions, one file each, dated the day decided: 11433 with their opinion text and 1 with CAP head matter only (CAP holds no opinion text for them); 107 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "1455f3260c7a3d530fb4372e07939dad0b11f7c7",
+      "repo": "lexifina/united-states-virginia-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/virginia/acts": {
+      "coverage": "2636 acts, 2691 dated versions from 1786-01-03 to 2026-11-02",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "547d20c03ff922ecacc691bb0952048dd50b49b1",
+      "repo": "lexifina/united-states-virginia-law",
+      "status": "current"
+    },
+    "united-states/virginia/caselaw": {
+      "coverage": "22827 published decisions, one file each, dated the day decided: 22901 with their opinion text and 64 with CAP head matter only (CAP holds no opinion text for them); 68 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "e22b449ee14f298dea707e30ce92a6a08288415a",
+      "repo": "lexifina/united-states-virginia-caselaw",
+      "status": "current"
+    },
+    "united-states/washington-appellate/caselaw": {
+      "coverage": "65109 published decisions, one file each, dated the day decided: 65019 with their opinion text and 90 with CAP head matter only (CAP holds no opinion text for them); 277 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "efa88eb90457b1357ce64089a7b44cdae05d4675",
+      "repo": "lexifina/united-states-washington-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/washington/acts": {
+      "coverage": "102 acts, 102 dated versions from 2024-07-13 to 2026-10-26; current text only, as the publisher gave it",
+      "history": "current-only",
+      "last_verified": "2026-11-03",
+      "pin": "7fd7a11c83bddb5ea9f6b6740cbf1f28a4aee88a",
+      "repo": "lexifina/united-states-washington-law",
+      "status": "current"
+    },
+    "united-states/washington/caselaw": {
+      "coverage": "41044 published decisions, one file each, dated the day decided: 41042 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 138 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "744dc250e5074e8fabdfa7ab64defe5bb8708151",
+      "repo": "lexifina/united-states-washington-caselaw",
+      "status": "current"
+    },
+    "united-states/west-virginia-other-courts/caselaw": {
+      "coverage": "5205 published decisions, one file each, dated the day decided: 5205 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 1 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "bb86a238a725364fdd82162b71afe65e2f6cf6a6",
+      "repo": "lexifina/united-states-west-virginia-other-courts-caselaw",
+      "status": "stale"
+    },
+    "united-states/west-virginia/acts": {
+      "coverage": "2371 acts of United States (West Virginia) with every dated version the source gives (2496 versions), in force from 2012-03-10 to 2026-11-13",
+      "history": "in-force",
+      "last_verified": "2026-11-13",
+      "pin": "41b6a4664bf6335fb3238b3949a97b66b6b6b934",
+      "repo": "lexifina/united-states-west-virginia-law",
+      "status": "current"
+    },
+    "united-states/west-virginia/caselaw": {
+      "coverage": "22570 published decisions, one file each, dated the day decided: 22570 with their opinion text and 0 with CAP head matter only (CAP holds no opinion text for them); 186 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "08622542604098c5d46c6b2d3a7aeb5f67455a22",
+      "repo": "lexifina/united-states-west-virginia-caselaw",
+      "status": "current"
+    },
+    "united-states/wisconsin-appellate/caselaw": {
+      "coverage": "10466 published decisions, one file each, dated the day decided: 10012 with their opinion text and 454 with CAP head matter only (CAP holds no opinion text for them); 171 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "4dd70b04e3ee761bd36be7b681fb36dd747555a2",
+      "repo": "lexifina/united-states-wisconsin-appellate-caselaw",
+      "status": "stale"
+    },
+    "united-states/wisconsin/acts": {
+      "coverage": "485 acts, 489 dated versions from 2025-03-07 to 2026-10-01",
+      "history": "in-force",
+      "last_verified": "2026-11-10",
+      "pin": "b5ad30d00ff88db3a6b4220ddc8f899e183bd651",
+      "repo": "lexifina/united-states-wisconsin-law",
+      "status": "current"
+    },
+    "united-states/wisconsin/caselaw": {
+      "coverage": "39849 published decisions, one file each, dated the day decided: 38965 with their opinion text and 884 with CAP head matter only (CAP holds no opinion text for them); 147 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "cbe933e6ecf9c03fb5a0a753dcf2042455d07a4a",
+      "repo": "lexifina/united-states-wisconsin-caselaw",
+      "status": "stale"
+    },
+    "united-states/wyoming/acts": {
+      "coverage": "1567 acts of United States (Wyoming) as enacted, in force from 2011-02-15 to 2026-11-13",
+      "history": "as-enacted",
+      "last_verified": "2026-11-13",
+      "pin": "af78bf66599a2f9c98197b94206513d369f37aa5",
+      "repo": "lexifina/united-states-wyoming-law",
+      "status": "current"
+    },
+    "united-states/wyoming/caselaw": {
+      "coverage": "10897 published decisions, one file each, dated the day decided: 10895 with their opinion text and 2 with CAP head matter only (CAP holds no opinion text for them); 140 citations of the US Code linked to united-states/federal/usc.",
+      "history": "in-force",
+      "last_verified": "2026-11-09",
+      "pin": "2fe53e18469f026d823b47cbc5c803127103d8ea",
+      "repo": "lexifina/united-states-wyoming-caselaw",
+      "status": "current"
+    }
+  },
+  "judgments_us_tree": "b2f4c6904af351f65fb866a7c3c8481926543370",
+  "taken": "2026-11-27",
+  "tools_tree": "e6bf7bd9dedee9068f50e33cdaaa1b564095f75f",
+  "upstream_commit": "b0b1acddd6f9aef8600c095b7718bd215cc5da32",
+  "upstream_date": "2026-11-26T17:13:13Z"
+}
